@@ -1,0 +1,184 @@
+footer {
+  background: #222; /* fondo oscuro */
+  color: white;     /* texto blanco */
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;}
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #222;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background: #4a90e2;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* ====== Sección Misión y Visión ====== */
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 400px;
+  flex: 1 1 300px;
+}
+
+.card h2 {
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ====== Responsivo ====== */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fcdada;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #222;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background: #4a90e2;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* ====== Formulario ====== */
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 450px;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #444;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4a90e2;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #357abd;
+}
